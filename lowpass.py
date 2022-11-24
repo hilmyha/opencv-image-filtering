@@ -14,8 +14,6 @@ img = cv2.resize(img_src, img_size, interpolation=cv2.INTER_AREA)
 
 kernel = np.ones((13,13), np.float32)/169
 
-print(kernel)
-
 flt_img = cv2.filter2D(src=img, ddepth=-1, kernel=kernel)
 
 cv2.imshow('LPF', flt_img)
