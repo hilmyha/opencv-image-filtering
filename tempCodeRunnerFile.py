@@ -1,0 +1,1 @@
+UTS\image\captured_img.png
