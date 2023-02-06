@@ -2,6 +2,7 @@ import numpy as np
 import cv2
 from PIL import ImageFilter
 
+# img_src = cv2.imread('UTS\image\captured_img.png', 0)
 img_src = cv2.imread('UTS\image\captured_img.png', 0)
 
 scale_percent = 20
