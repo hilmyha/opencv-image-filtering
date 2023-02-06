@@ -13,3 +13,6 @@ Jenis jenis filter dapat digunakan untuk meningkatkan kualitas citra, bisa untuk
 Referensi pekerjaan 
 1. [https://rsdharra.com/blog/lesson/9.html](https://rsdharra.com/blog/lesson/9.html)
 2. [https://www.geeksforgeeks.org/image-filtering-using-convolution-in-opencv/](https://www.geeksforgeeks.org/image-filtering-using-convolution-in-opencv/)
+3. [https://stackoverflow.com/questions/34588464/python-how-to-capture-image-from-webcam-on-click-using-opencv](https://stackoverflow.com/questions/34588464/python-how-to-capture-image-from-webcam-on-click-using-opencv)
+4. [https://pythonbasics.org/tkinter/](https://pythonbasics.org/tkinter/)
+5. [https://numpy.org/doc/stable/](https://numpy.org/doc/stable/)

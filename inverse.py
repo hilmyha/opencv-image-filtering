@@ -3,7 +3,7 @@ import cv2
 from cv2 import imread
 
 # read image
-img_src = cv2.imread('UTS\image\captured_img.png', 0)
+img_src = cv2.imread('image\captured_img.png', 0)
 
 scale_percent = 20
 width = int(img_src.shape[1] * scale_percent / 15)
@@ -23,6 +23,6 @@ imgdilation = cv2.dilate(img, kernel, iterations=1)
 
 # flt_img = cv2.filter2D(src=img, ddepth=-1, kernel=kernel)
 
-cv2.imshow('IPF', imginvers)
+cv2.imshow('INVERSE', imginvers)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

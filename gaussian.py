@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img_src = cv2.imread('UTS\image\captured_img.png')
+img_src = cv2.imread('image\captured_img.png')
 
 scale_percent = 20
 width = int(img_src.shape[1] * scale_percent / 15)

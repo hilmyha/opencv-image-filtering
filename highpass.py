@@ -3,7 +3,7 @@ import cv2
 from PIL import ImageFilter
 
 # img_src = cv2.imread('UTS\image\captured_img.png', 0)
-img_src = cv2.imread('UTS\image\captured_img.png', 0)
+img_src = cv2.imread('image\captured_img.png', 0)
 
 scale_percent = 20
 width = int(img_src.shape[1] * scale_percent / 15)

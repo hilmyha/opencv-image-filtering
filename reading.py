@@ -6,25 +6,25 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 def lowpass():
-  os.system('python UTS/lowpass.py')
+  os.system('python lowpass.py')
 
 def highpass():
-  os.system('python UTS/highpass.py')
+  os.system('python highpass.py')
   
 def highboost():
-  os.system('python UTS/highboost.py')
+  os.system('python highboost.py')
 
 def emboss():
-  os.system('python UTS/emboss.py')
+  os.system('python emboss.py')
 
 def gaussian():
-  os.system('python UTS/gaussian.py')
+  os.system('python gaussian.py')
 
 def inverse():
-  os.system('python UTS/inverse.py')
+  os.system('python inverse.py')
 
 def cam():
-  os.system('python UTS/cam.py')
+  os.system('python cam.py')
 
 root = Tk()
 frm = ttk.Frame(root, padding=40)
